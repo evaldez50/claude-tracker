@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/claude-tracker/dev-sw.js?dev-sw', { scope: '/claude-tracker/', type: 'classic' })
