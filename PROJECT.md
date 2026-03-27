@@ -100,6 +100,47 @@ npm run generate-icons
 - Mobile-first responsive
 - CI/CD automático con GitHub Actions
 
+
+## Roadmap
+
+### Sprint 1 — MVP PWA (Completado)
+- React + Vite + Tailwind
+- Dashboard con progreso general y por track
+- 3 tracks con 13 módulos
+
+### Sprint 2 — Contenido Completo (Completado)
+- Calendario semanal de 14 semanas
+- 7 certificados oficiales de Anthropic
+- Recursos y links a Anthropic Academy
+
+### Sprint 3 — PWA y Deploy (Completado)
+- Service Worker para uso offline
+- PWA manifest con iconos
+- CI/CD con GitHub Actions → GitHub Pages
+- Dark theme
+
+
+## Bugs conocidos
+
+| Bug | Severidad | Status |
+|---|---|---|
+| El progreso no se sincroniza entre dispositivos (solo localStorage) | Medio | Abierto |
+| Los iconos PWA no se generan correctamente en Windows (script usa sharp con dependencia nativa) | Bajo | Abierto |
+| El calendario semanal no se actualiza dinámicamente según la fecha actual | Bajo | Abierto |
+| Base path /claude-tracker/ causa problemas si se intenta servir desde la raíz | Bajo | Abierto |
+
+
+## Siguientes pasos recomendados
+
+- [ ] **Sincronización en la nube** — Agregar Supabase para sincronizar progreso entre dispositivos
+- [ ] **Notificaciones push** — Recordatorios semanales para mantener el ritmo de estudio
+- [ ] **Modo de estudio** — Timer pomodoro integrado para sesiones de aprendizaje
+- [ ] **Tracking de tiempo** — Registrar horas dedicadas por módulo/semana
+- [ ] **Actualizar contenido** — Agregar nuevos cursos y certificados de Anthropic cuando se publiquen
+- [ ] **Exportar progreso** — Generar reporte PDF del avance para compartir
+- [ ] **Gamification** — Badges y streaks para motivar el estudio diario
+
+
 ## Notas para Claude Code
 
 - No hay backend ni APIs — todo es frontend con localStorage
