@@ -2,6 +2,9 @@
 
 PWA (Progressive Web App) para rastrear tu progreso en el plan de aprendizaje de Claude y Anthropic. Incluye un roadmap de 14 semanas con 3 tracks, 13 módulos, 7 certificados oficiales, calendario semanal, y sistema de progreso con niveles.
 
+
+**Versión:** 1.0.0
+
 ## Stack tecnológico
 
 - **React** 18.3 — UI con componentes funcionales y hooks
@@ -140,6 +143,23 @@ npm run generate-icons
 - [ ] **Exportar progreso** — Generar reporte PDF del avance para compartir
 - [ ] **Gamification** — Badges y streaks para motivar el estudio diario
 
+
+## Changelog
+
+### v1.0.0 — 2026-03-20
+- PWA completa con service worker para uso offline
+- Deploy automático con GitHub Actions a GitHub Pages
+- Dark theme completo
+
+### v0.2.0 — 2026-03-10
+- Agregado calendario semanal de 14 semanas
+- Agregados 7 certificados oficiales de Anthropic
+- Agregados recursos y links a Anthropic Academy
+
+### v0.1.0 — 2026-02-25
+- MVP con dashboard de progreso
+- 3 tracks con 13 módulos
+- Progreso guardado en localStorage
 
 ## Notas para Claude Code
 
