@@ -12,8 +12,8 @@
 
 ## Fase única — Detalles
 
-- [ ] Resolver CLAUDE.md sin commitear
-- [ ] Verificar start_url de la PWA
+- [x] Resolver CLAUDE.md sin commitear (validado 2026-07-08: commit `1e0ce0f`, árbol limpio y sincronizado)
+- [x] Verificar start_url de la PWA (2026-07-10: correcto — `start_url` y `scope` = `/claude-tracker/`, coinciden con `base` de vite.config.js y el basePath de GitHub Pages). **PLAN CERRADO.**
 
 **Prompt:**
 ```
